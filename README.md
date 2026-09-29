@@ -1,36 +1,38 @@
-# Case Pilot System – Konzept & Planung
+# Case Pilot System – Concept & Planning
 
-Planungsunterlagen für das **Case Pilot System**, mein Abschlussprojekt der Ausbildung **Software Developer:in Java am WIFI Wien** (2025, mit sehr gutem Erfolg bestanden).
+Planning documents for the **Case Pilot System**, my final project for the **Software Developer Java** program at **WIFI Vienna** (2025, passed with distinction).
 
-Das Case Pilot System ist eine Desktop-Anwendung für Sozialbetreuer:innen: Klient:innen, Termine und Betreuungsverläufe an einem Ort verwalten, statt in verstreuten Listen und Notizen.
+The Case Pilot System is a desktop application for social care workers: manage clients, appointments and care histories in one place instead of scattered lists and notes.
 
-> **Zum Code:** Die fertige Anwendung (Java 17, JavaFX, Spring Boot, JPA, MySQL) liegt im Repository **[client-pilot](https://github.com/Badr-Emil/client-pilot)**.
-> Dieses Repository enthält die Konzeptphase vom November 2024, bevor die Umsetzung begann.
+> **Looking for the code?** The finished application (Java 17, JavaFX, Spring Boot, JPA, MySQL) lives in the **[client-pilot](https://github.com/Badr-Emil/client-pilot)** repository.
+> This repository contains the concept phase from November 2024, before implementation started.
 
-## Dokumentation
+## Documentation
 
-| Dokument | Inhalt |
+The documents themselves are written in German.
+
+| Document | Contents |
 |---|---|
-| [Anforderungsdokument](Dokumentation/Anforderungsdokument_Badr.pdf) | Funktionale und nicht-funktionale Anforderungen, technische Anforderungen, Systemarchitektur, Benutzergruppen, Risiken und Annahmen (11 Seiten) |
-| [ER-Diagramm](Dokumentation/ER_Diagram_Badr.pdf) | Datenmodell mit Klient:innen, Terminen und Historie |
-| [Klassendiagramm](Dokumentation/Klassendiagramm_Badr.pdf) | Aufbau der Anwendung in Klassen und Schichten |
-| [Use-Case-Diagramm](Dokumentation/User_case_diagram_Badr.pdf) | Was Sozialbetreuer:innen mit dem System tun können |
+| [Requirements document](Dokumentation/Anforderungsdokument_Badr.pdf) | Functional and non-functional requirements, technical requirements, system architecture, user groups, risks and assumptions (11 pages) |
+| [ER diagram](Dokumentation/ER_Diagram_Badr.pdf) | Data model with clients, appointments and history |
+| [Class diagram](Dokumentation/Klassendiagramm_Badr.pdf) | Structure of the application in classes and layers |
+| [Use-case diagram](Dokumentation/User_case_diagram_Badr.pdf) | What social care workers can do with the system |
 
-## Geplante Funktionen
+## Planned features
 
-- **Klientenverwaltung:** anlegen, bearbeiten, löschen und auflisten
-- **Terminverwaltung:** Termine pro Klient:in planen und verwalten
-- **Historienverwaltung:** Betreuungsverlauf je Klient:in dokumentieren
+- **Client management:** create, edit, delete and list clients
+- **Appointment management:** schedule and manage appointments per client
+- **History management:** document the care history of each client
 
-Alle drei Bereiche sind in [client-pilot](https://github.com/Badr-Emil/client-pilot) umgesetzt.
+All three areas are implemented in [client-pilot](https://github.com/Badr-Emil/client-pilot).
 
-## Vorgehen
+## Approach
 
-1. **Anforderungsanalyse:** User Stories aus Sicht der Sozialbetreuer:innen, priorisiert und mit Anforderungs-ID, damit jede Anforderung später getestet werden kann
-2. **Modellierung:** Use Cases, Datenmodell (ER) und Klassenstruktur mit UML
-3. **Umsetzung:** Java-Anwendung in Schichtenarchitektur, siehe [client-pilot](https://github.com/Badr-Emil/client-pilot)
-4. **Abschluss:** Präsentation und mündliche Prüfung vor der Prüfungskommission
+1. **Requirements analysis:** user stories from the social care worker's perspective, prioritized and given a requirement ID so each one can be tested later
+2. **Modeling:** use cases, data model (ER) and class structure in UML
+3. **Implementation:** Java application with a layered architecture, see [client-pilot](https://github.com/Badr-Emil/client-pilot)
+4. **Completion:** presentation and oral exam before the examination board
 
-## Autor
+## Author
 
-**Said Emil Badr** · Java Backend & KI-Automatisierung · [saidemilbadr.me](https://saidemilbadr.me)
+**Said Emil Badr** · Java Backend & AI Automation · [saidemilbadr.me](https://saidemilbadr.me)
